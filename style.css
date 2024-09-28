@@ -1,0 +1,195 @@
+/* GENERAL */
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 2rem;
+    color: white;
+}
+
+.content {
+    margin: auto;
+    max-width: 120rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+/*HEADER STYLES*/
+#header {
+    background-color: #1F2937;
+    padding: 2rem 0;
+}
+
+#header .content {
+    gap: 2rem;
+}
+
+#header h1 {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header a,
+#hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* HERO STYLES*/
+#hero {
+    background-color: #1F2937;
+    padding: 5rem 0 10rem;
+}
+
+#hero .content {
+    align-content: space-between;
+}
+
+#hero .content div {
+    flex-basis: 50rem;
+}
+
+#hero .content div * {
+    margin: 0.5rem 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.7rem 2.5rem; 
+}
+
+#hero img {
+    background-color: grey;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 55rem;
+    flex-shrink: 0;
+}
+
+
+/*INFO STYLES*/
+#info {
+    padding: 7rem 0 10rem;
+}
+
+#info .content {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#info .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#info .card {
+    flex-basis: 19rem;
+    text-align: center;
+}
+
+#info .card img {
+    height: 15rem;
+    width: 15rem;
+    border: 0.5rem solid #3882F6;
+    border-radius: 1rem;
+}
+
+#info .card p {
+    color: black;
+}
+
+
+/*QUOTE STYLE*/
+#quote {
+    background-color: #E5E7EB;
+    padding: 15rem 0;
+}
+
+#quote .content {
+    flex-direction: column;
+    max-width: 80rem;
+}
+
+#quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: black;
+}
+
+#quote cite {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+}
+
+
+/*CALL TO ACTION STYLE*/
+#call-to-action {
+    padding: 10rem 0;
+}
+
+#call-to-action .content {
+    background-color: #3882F6;
+    color: white;
+    padding: 4rem 10rem;
+    border-radius: 1rem;
+}
+
+#call-to-action h3 {
+    font-size: 2.5rem;
+}
+
+#call-to-action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    padding: 0.7rem 2.5rem; 
+}
+
+
+/*FOOTER STYLE*/
+#footer {
+    background-color: #1F2937;
+    padding: 2rem 0;
+}
+
+#footer .content {
+    justify-content: center;
+    font-size: 1.5rem;
+}
